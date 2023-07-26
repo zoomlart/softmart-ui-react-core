@@ -1,0 +1,46 @@
+// Font Colors
+$base-color: #ffc709;
+$primary-200-color: #ffd143;
+$red-color: #e43434;
+$red-200-color: rgba(228, 52, 52, 0.2);
+$second-color: #0072bc;
+$third-color: rgba(9, 31, 62, 0.2);
+$blue-200-color: #c4e2fe;
+$orange-50-color: #fff9e6;
+$orange-100-color: #ffeaaf;
+$white: #fff;
+$black: #000;
+$base-font-family: 'Segoe UI', Open Sans, Helvetica Neue, sans-serif;
+$base-font-color: rgba(0, 0, 0, 0.85);
+$base-font-size: 14px;
+$base-font-weight: normal;
+$base-line-height: 1;
+$base-background-color: rgba(9, 31, 62, 0.04);
+$body-color-second: rgba(9, 31, 62, 0.6);
+$border-color: rgba(231, 234, 243, 0.8);
+$border-form-color: #d1d1d1;
+
+//Box Shadown
+$card-shadow: 0rem 0.375rem 0.75rem rgba(140, 152, 164, 0.075);
+$input-shadow: 0 0 1rem 0 rgba(140, 152, 164, 0.25);
+
+//Font weight
+$ultrathin: 100;
+$light: 200;
+$thin: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$heavy: 800;
+$ultraheavy: 900;
+
+//Responsive
+$screen-xs: 767px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+//grid
+$screen-sm-max: ($screen-md - 1);
+$screen-md-max: ($screen-lg - 1);

@@ -1,0 +1,151 @@
+.sm-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid $border-form-color;
+  white-space: nowrap;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.disable {
+    cursor: none;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  border: 1px solid $border-form-color;
+  border-radius: 6px;
+  color: $base-font-color;
+  background-color: $white;
+
+  i {
+    color: $second-color;
+  }
+
+  &:hover {
+    border-color: $primary-200-color;
+    background-color: $primary-200-color;
+    color: $second-color;
+    cursor: pointer;
+  }
+
+  &.disable {
+    cursor: none;
+  }
+}
+
+.btn-link {
+  color: $second-color;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: $base-font-color;
+}
+
+.btn-default {
+  background-color: $base-background-color;
+
+  &:hover {
+    border-color: $base-color;
+    background-color: $base-color;
+  }
+}
+
+.btn-disable {
+  background: rgba(39, 41, 55, 0.05);
+  /* Dark/Disable */
+  border: 1px solid rgba(39, 41, 55, 0.12);
+  color: rgba(39, 41, 55, 0.35);
+}
+
+.btn-outline {
+  border: 0 none;
+  background-color: transparent;
+
+  &:hover {
+    border-color: $base-background-color;
+    background-color: $base-background-color;
+    color: $base-font-color;
+  }
+}
+
+.btn-primary {
+  background-color: $base-color;
+  border-color: $base-color;
+  color: $base-font-color;
+
+  i {
+    color: $second-color;
+  }
+
+  &:hover {
+    border-color: $primary-200-color;
+    background-color: $primary-200-color;
+  }
+}
+
+.btn-accent {
+  background-color: $blue-200-color;
+  border-color: $blue-200-color;
+  color: $second-color;
+  &:hover {
+    background-color: $second-color;
+    border-color: $second-color;
+    color: $white;
+  }
+}
+
+.btn-danger {
+  background-color: $red-200-color;
+  border-color: $red-200-color;
+  color: $red-color;
+
+  i {
+    color: $red-color;
+  }
+
+  &:hover {
+    background-color: $red-color;
+    border-color: $red-color;
+    color: $white;
+
+    i {
+      color: $white;
+    }
+  }
+}
+
+.sm-delete-button {
+  .fa,
+  .fas {
+    color: $second-color;
+  }
+  &:hover {
+    background-color: $red-color;
+    border-color: $red-color;
+    color: $white;
+    .fa,
+    .fas {
+      color: $white;
+    }
+  }
+}

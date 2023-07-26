@@ -1,0 +1,72 @@
+/* input.css */
+
+.input {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Appearance variations */
+.input.outline {
+  background-color: #fff;
+}
+
+.input.underline {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.input.filled-darker {
+  background-color: #f0f0f0;
+}
+
+.input.filled-lighter {
+  background-color: #fafafa;
+}
+
+/* Size variations */
+.input.small {
+  font-size: 14px;
+  padding: 6px;
+}
+
+.input.medium {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.input.large {
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Content before and after styles */
+.input-content-before,
+.input-content-after {
+  margin-right: 8px;
+}
+
+/* Disabled styles */
+.input.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Input element styles */
+.input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: inherit;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Underline appearance focus styles */
+.input.underline input:focus {
+  border-bottom: 2px solid #007bff;
+}

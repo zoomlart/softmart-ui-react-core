@@ -1,0 +1,77 @@
+@import '../../assets/styles/scss/styles.scss';
+/* Button.module.css */
+.button {
+  /* Your common styles for the button */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Size styles */
+.small {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.large {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+/* Appearance styles */
+.subtle {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.outline {
+  background-color: transparent;
+  color: #0078d4;
+  border: 1px solid #0078d4;
+}
+
+.secondary {
+  background-color: #f3f3f3;
+  color: #333;
+  border: none;
+}
+
+.primary {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+}
+
+.transparent {
+  background-color: transparent;
+  color: #0078d4;
+  border: none;
+}
+
+.disabled-focus {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Icon position styles */
+.icon-left {
+  margin-right: 8px;
+}
+
+.icon-right {
+  margin-left: 8px;
+}
+
+/* Shape styles */
+.circular {
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 5px;
+}
